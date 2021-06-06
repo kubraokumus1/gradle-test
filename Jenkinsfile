@@ -1,8 +1,8 @@
 node{
     stage ('Build') 
     {
-        sh 'rm -r gradle-test'
-        sh 'git clone https://github.com/kubraokumus1/gradle-test'
+        sh 'env'        
+        git branch: 'stable-2.204', url: 'https://github.com/kubraokumus1/gradle-test'
         dir ('gradle-test'){
             sh 'ls -la'
             sh 'pwd'
