@@ -6,7 +6,7 @@ node{
         dir ('gradle-test'){
             sh 'ls -la'
             sh 'pwd'
-            sh './gradlew build'
+            sh 'gradle build'
         }
     }
 }
