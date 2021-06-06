@@ -1,8 +1,7 @@
 node{
     stage ('Build') 
-    {
-        sh 'env'        
-        git branch: 'stable-2.204', url: 'https://github.com/kubraokumus1/gradle-test'
+    {        
+        git branch: env.BRANCH_NAME, url: 'https://github.com/kubraokumus1/gradle-test'
         dir ('gradle-test'){
             sh 'ls -la'
             sh 'pwd'
