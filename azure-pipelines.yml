@@ -6,7 +6,7 @@
 trigger:
 - main
 
-pool: 'Default'
+pool: 'test-agent-pool'
 
 steps:
 - script: echo Hello, world!
