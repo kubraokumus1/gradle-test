@@ -28,7 +28,7 @@ steps:
     #machineNames: # Optional
     #adminUserName: # Optional
     #adminPassword: # Optional
-    targetPath: C:\Users\User>
+    targetPath: C:\Kullanıcılar\User>Masaüstü
     #cleanTargetBeforeCopy: false # Optional
     #copyFilesInParallel: true # Optional
     #additionalArguments: # Optional
