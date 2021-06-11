@@ -23,5 +23,5 @@ steps:
 - task: CopyFiles@2
   inputs:
     SourceFolder: 'C:\Users\User\agent\_work\2\s'
-    Contents: '.jpg'
-    TargetFolder: 'C:\Users\User>'
+    Contents: 'eli.jpg'
+    TargetFolder: 'C:\Users\User>desktop'
