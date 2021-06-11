@@ -20,15 +20,8 @@ steps:
 - script: dir
   displayName: 'dir script'
 
-# Windows machine file copy
-# Copy files to remote Windows machines
-- task: WindowsMachineFileCopy@2
+- task: CopyFiles@2
   inputs:
-    sourcePath: eli.jpg
-    machineNames: LAPTOP-DLDN8T45
-    #adminUserName: # Optional
-    #adminPassword: # Optional
-    targetPath: C:\Kullanıcılar\User>Masaüstü
-    #cleanTargetBeforeCopy: false # Optional
-    #copyFilesInParallel: true # Optional
-    #additionalArguments: # Optional
+    SourceFolder: 'C:\Users\User\git projects\gradle-test'
+    Contents: '**'
+    TargetFolder: 'C:\Kullanıcılar\User>Masaüstü'
