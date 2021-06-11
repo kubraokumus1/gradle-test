@@ -24,4 +24,4 @@ steps:
   inputs:
     SourceFolder: 'C:\Users\User\agent\_work\2\s'
     Contents: 'eli.jpg'
-    TargetFolder: 'C:\Users\User>desktop'
+    TargetFolder: 'C:\Users\User>'
