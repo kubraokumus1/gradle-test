@@ -18,7 +18,6 @@ steps:
   displayName: 'Run a multi-line script'
 
 
-steps:
 - task: Gradle@2
   inputs:
     workingDirectory: ''
