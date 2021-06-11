@@ -22,6 +22,6 @@ steps:
 
 - task: CopyFiles@2
   inputs:
-    SourceFolder: 'C:\Users\User\git projects\gradle-test'
-    Contents: '**'
-    TargetFolder: 'C:\Kullanıcılar\User>Masaüstü'
+    SourceFolder: 'C:\Users\User\agent\_work\2\s'
+    Contents: '.jpg'
+    TargetFolder: 'C:\Users\User>'
