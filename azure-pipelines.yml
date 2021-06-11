@@ -20,3 +20,5 @@ steps:
 - script: dir
   displayName: 'dir script'
 
+- script: copy eli.jpg
+  displayName: 'copy script'
