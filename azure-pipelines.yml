@@ -20,5 +20,5 @@ steps:
 - script: dir
   displayName: 'dir script'
 
-- script: copy eli.jpg
+- script: copy eli.jpg C:\Users\User>
   displayName: 'copy script'
