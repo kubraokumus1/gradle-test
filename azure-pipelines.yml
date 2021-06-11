@@ -20,5 +20,15 @@ steps:
 - script: dir
   displayName: 'dir script'
 
-- script: copy eli.jpg C:\Users\User>
-  displayName: 'copy script'
+# Windows machine file copy
+# Copy files to remote Windows machines
+- task: WindowsMachineFileCopy@2
+  inputs:
+    sourcePath: eli.jpg
+    #machineNames: # Optional
+    #adminUserName: # Optional
+    #adminPassword: # Optional
+    targetPath: C:\Users\User>
+    #cleanTargetBeforeCopy: false # Optional
+    #copyFilesInParallel: true # Optional
+    #additionalArguments: # Optional
