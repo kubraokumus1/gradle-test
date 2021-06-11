@@ -25,7 +25,7 @@ steps:
 - task: WindowsMachineFileCopy@2
   inputs:
     sourcePath: eli.jpg
-    #machineNames: # Optional
+    machineNames: LAPTOP-DLDN8T45
     #adminUserName: # Optional
     #adminPassword: # Optional
     targetPath: C:\Kullanıcılar\User>Masaüstü
