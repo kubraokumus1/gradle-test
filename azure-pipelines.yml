@@ -21,8 +21,7 @@ steps:
   inputs:
     versionSpec: '8'
     jdkArchitectureOption: 'x64'
-    jdkSourceOption: 'PreInstalled'
-
+    jdkSourceOption: LocalDirectory
 - task: Gradle@2
   inputs:
     gradleWrapperFile: 'gradlew.bat'
