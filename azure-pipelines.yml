@@ -21,7 +21,7 @@ steps:
 - task: Gradle@2
   inputs:
    # gradleWrapperFile: 'gradlew.bat'
-    gradleWrapperFile: 'C:\gradle\gradle-7.0.2\bin\gradlew.bat'
+    gradleWrapperFile: 'C:\gradle\gradle-7.0.2\bin\gradle.bat'
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
