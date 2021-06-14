@@ -16,7 +16,6 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     dir
-    distributionUrl=https\://services.gradle.org/distributions/gradle-7.0.2-bin.zip
   displayName: 'Run a multi-line script'
   
 
@@ -24,7 +23,7 @@ steps:
 - task: Gradle@2
   inputs:
     gradleWrapperFile: 'gradlew.bat'
-    tasks: 'build'
+    tasks: 'gradle wrapper --gradle-version 7.0.2 --distribution-type all; build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
