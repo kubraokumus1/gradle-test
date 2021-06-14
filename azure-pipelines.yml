@@ -15,13 +15,15 @@ steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
+    dir
   displayName: 'Run a multi-line script'
+  
 
-    
+
 - task: Gradle@2
   inputs:
-   # gradleWrapperFile: 'gradlew.bat'
-    gradleWrapperFile: 'C:\gradle\gradle-7.0.2\bin\gradle.bat'
+    gradleWrapperFile: 'gradle.bat'
+   # gradleWrapperFile: 'C:\gradle\gradle-7.0.2\bin\gradle.bat'
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
