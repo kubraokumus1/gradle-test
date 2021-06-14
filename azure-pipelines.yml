@@ -23,7 +23,6 @@ steps:
 - task: Gradle@2
   inputs:
     gradleWrapperFile: 'gradlew.bat'
-    options: ./gradlew wrapper --gradle-version 7.0.2
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
