@@ -22,7 +22,7 @@ steps:
 
 - task: Gradle@2
   inputs:
-    gradleWrapperFile: 'gradlew.bat --stacktrace'
+    gradleWrapperFile: 'gradlew.bat'
     tasks: 'build'
     publishJUnitResults: false
     javaHomeOption: 'JDKVersion'
