@@ -29,5 +29,5 @@ steps:
     jdkVersionOption: '1.8'
     gradleOptions: '-Xmx3072m'
     sonarQubeRunAnalysis: false
-    spotBugsAnalysis: false    
-    options: gradle wrapper --gradle-version 7.0.2 --distribution-type all
+    spotBugsAnalysis: false
+    findBugsRunAnalysis: true
