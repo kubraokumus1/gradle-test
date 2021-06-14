@@ -16,6 +16,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
     dir
+    gradle wrapper --gradle-version 7.0.2 --distribution-type all
   displayName: 'Run a multi-line script'
   
 
@@ -30,4 +31,3 @@ steps:
     gradleOptions: '-Xmx3072m'
     sonarQubeRunAnalysis: false
     spotBugsAnalysis: false
-    findBugsRunAnalysis: true
